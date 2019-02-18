@@ -4,5 +4,20 @@ Entries are not deleted and new entries are added at the top of the this file.
 Try and keep this up to date; it will make writing individual and group reports
 easier.
 
+## 2019/02/18  
+Will:  
+Looking for a suitable ADC  
+Sampling speed and low noise are priorities  
+Most probably running off linear reg at 3.3V  
+Pseudo-differential ADC moves (potentially) too slowly for the audio  
+Differential would be perfect  
+Single ended will be fine as will be in close proximity  
+  
+Carol:  
+Looking for suitable Linear regulator for Mic, Amplifier, etc.  
+Looking for suitable battery bank  
+Rechargable USB battery bank is stable enough for the RPi  
+Will use linear regs to make stable for audio section  
+
 ## example entry
 Who is working on what. Current problems.
