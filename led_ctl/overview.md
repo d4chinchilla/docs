@@ -8,9 +8,9 @@ Programming in Python (must be run as root)
 Using adafruit libraries    
 
 ### Hardware
-Pi 5V to Neopixel 5V
-Pi GND to Neopixel GND
-Pi GPIO18 to Neopixel Din
+Pi 5V to Neopixel 5V    
+Pi GND to Neopixel GND    
+Pi GPIO18 to Neopixel Din    
 
 ### Setup
 - Update / Upgrade Pi
