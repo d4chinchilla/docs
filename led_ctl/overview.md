@@ -10,7 +10,8 @@ Using adafruit libraries
 ### Hardware
 Pi 5V to Neopixel 5V    
 Pi GND to Neopixel GND    
-Pi GPIO18 to Neopixel Din    
+With 1000µF protection capacitor between 5V and GND    
+Pi GPIO18 to Neopixel Din with 470Ω resistor in between    
 
 ### Setup
 - Update / Upgrade Pi
