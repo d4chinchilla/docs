@@ -1,2 +1,2 @@
 # Back-end Overview
-Back-end Lead: [Francis Wharf](github.com/xeom)
+Back-end Lead: [Francis Wharf](http://github.com/xeom)

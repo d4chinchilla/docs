@@ -1,2 +1,2 @@
 # Buffer Overview
-Buffer Lead: [Matthew Johns](github.com/mjohns4)
+Buffer Lead: [Matthew Johns](http://github.com/mjohns4)

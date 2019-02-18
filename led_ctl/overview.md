@@ -1,2 +1,2 @@
 # LED Control Overview
-LED Control Lead: [Mark Warnants](github.com/markwarnants)
+LED Control Lead: [Mark Warnants](http://github.com/markwarnants)

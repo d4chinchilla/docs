@@ -1,2 +1,2 @@
 # Hardware Overview
-Hardware Lead: [William Webb](github.com/bishopstoenail)
+Hardware Lead: [William Webb](http://github.com/bishopstoenail)

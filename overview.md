@@ -23,11 +23,11 @@ with multiple interlocutors.
   * schematics
 
 ## Unit Leads
-* Back-end Lead: [Francis Wharf](github.com/xeom)
-* Buffer Lead: [Matthew Johns](github.com/mjohns4)
-* Hardware Lead: [William Webb](github.com/bishopstoenail)
-* LED Control Lead: [Mark Warnants](github.com/markwarnants)
-* Web Lead: [Matt Crossley](github.com/mattcrossley99)
+* Back-end Lead: [Francis Wharf](http://github.com/xeom)
+* Buffer Lead: [Matthew Johns](http://github.com/mjohns4)
+* Hardware Lead: [William Webb](http://github.com/bishopstoenail)
+* LED Control Lead: [Mark Warnants](http://github.com/markwarnants)
+* Web Lead: [Matt Crossley](http://github.com/mattcrossley99)
 
 ## Code Repositories
 | Units                                                          | Description                                                 |
