@@ -12,15 +12,11 @@ with multiple interlocutors.
 *add svg here*
 
 ## Units
-* Web
-* Buffer
-* Back-end
-* LED controller
-* Hardware
-  * case design
-  * power
-  * analogue front-end
-  * schematics
+* [Web](web/overview.md)
+* [Buffer](buffer/overview.md)
+* [Back-end](back-end/overview.md)
+* [LED controller](led_ctl/overview.md)
+* [Hardware](hardware/overview.md)
 
 ## Unit Leads
 * Back-end Lead: [Francis Wharf](http://github.com/xeom)
