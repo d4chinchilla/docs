@@ -11,7 +11,7 @@ with multiple interlocutors.
 ## Schematic
 *add svg here*
 
-## Units Making Up The Device.
+## Units
 * Web
 * Buffer
 * Back-end
@@ -21,6 +21,13 @@ with multiple interlocutors.
   * power
   * analogue front-end
   * schematics
+
+## Unit Leads
+* Back-end Lead: [Francis Wharf](github.com/xeom)
+* Buffer Lead: [Matthew Johns](github.com/mjohns4)
+* Hardware Lead: [William Webb](github.com/bishopstoenail)
+* LED Control Lead: [Mark Warnants](github.com/markwarnants)
+* Web Lead: [Matt Crossley](github.com/mattcrossley99)
 
 ## Code Repositories
 | Units                                                          | Description                                                 |
