@@ -4,8 +4,8 @@ LED Control Lead: [Mark Warnants](http://github.com/markwarnants)
 Log File: [led_ctl/log.md](log.md)
 
 ## Neopixels
-Programming in Python (must be run as root)
-Using adafruit libraries
+Programming in Python (must be run as root)    
+Using adafruit libraries    
 
 ### Hardware
 Pi 5V to Neopixel 5V
