@@ -30,11 +30,11 @@ with multiple interlocutors.
 * Web Lead: [Matt Crossley](http://github.com/mattcrossley99)
 
 ## Code Repositories
-| Units                                                          | Description                                                 |
-|:--------------------------------------------------------------:|:------------------------------------------------------------|
-| [signal_processing](github.com/d4chinchilla/signal_processing) | Microcontroller's buffer program and Raspberry pi back-end. |
-| [web](https://github.com/d4chinchilla/web)                     | Server and client for the webUI.                            |
-| [led_ctl](github.com/d4chinchilla/led_ctl)                     | Pretty self explanatory.                                    |
+| Units                                                                  | Description                                                 |
+|:----------------------------------------------------------------------:|:------------------------------------------------------------|
+| [signal_processing](https://github.com/d4chinchilla/signal_processing) | Microcontroller's buffer program and Raspberry pi back-end. |
+| [web](https://github.com/d4chinchilla/web)                             | Server and client for the webUI.                            |
+| [led_ctl](https://github.com/d4chinchilla/led_ctl)                     | Pretty self explanatory.                                    |
 
 ## Are you a Git Noob?
 Francis has written a great guide in ['git.md'](git.md).
