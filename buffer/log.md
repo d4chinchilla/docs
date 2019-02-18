@@ -7,7 +7,7 @@ easier.
 ## mbed CLI
 mbed CLI tools have been installed and got working. To build and upload code,
 add the code in a file named main.cpp inside the directory "mbed-os-program".
-Then use the command:
+From inside the 'current' directory (this is just how I've set it up on my system - more of a reminder to me) use the command:
 
 `mbed compile -t GCC_ARM -m NUCLEO_L432KC -f`
 
