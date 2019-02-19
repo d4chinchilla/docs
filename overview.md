@@ -6,7 +6,7 @@ Main Log File: [log.md](log.md)
 
 ## What is Project Chinchilla?
 
-Project Chinchilla is a portable device which can accurately measuring the angle
+Project Chinchilla is a portable device which can accurately measure the angle
 from which sounds come from. It was conceived with the intent of helping deaf
 people see sounds and where they come from. In addition to situational
 awareness, this device will help deaf people can lip read follow conversations
