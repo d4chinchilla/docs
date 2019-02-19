@@ -22,12 +22,12 @@ Pi GPIO18 to Neopixel Din with 470Ω resistor in between
 - Install CircuitPython: <code>sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel</code>
 
 ### Sources
-Neopixel install:
+Neopixel install:    
 <https://learn.adafruit.com/neopixels-on-raspberry-pi?view=all>    
 <https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel>    
-Licence: MIT
+Licence: MIT    
 
-Circuit python install:
+Circuit python install:    
 <https://learn.adafruit.com/circuitpython-on-raspberrypi-linux?view=all>    
-<https://github.com/adafruit/circuitpython>
-Licence: MIT
+<https://github.com/adafruit/circuitpython>    
+Licence: MIT    
