@@ -32,4 +32,5 @@ The weighting of marks for the individual Report is approximately:
 | 10/65 | Team Working, Planning and Progress |
 | 10/65 | Evaluation and Reflection           |
 
- At the end of the project, your team will have to agree on the effort contributed by each team member. T
+At the end of the project, your team will have to agree on the effort
+contributed by each team member.
