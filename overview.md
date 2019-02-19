@@ -4,6 +4,8 @@ Project Lead: [Hugo McNally](http://github.com/hu90m)
 
 Main Log File: [log.md](log.md)
 
+Deadlines: [deadlines.md](deadlines.md)
+
 ## What is Project Chinchilla?
 
 Project Chinchilla is a portable device which can accurately measure the angle
