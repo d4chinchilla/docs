@@ -13,6 +13,7 @@ We will be evaluated on:
 
 You will be assessed by a number of deliverables. The weighting of the
 deliverables is approximately:
+
 | mark   | component                                      |
 |:------:|:-----------------------------------------------|
 | 5/100  | Project Proposal Form                          |
@@ -22,6 +23,7 @@ deliverables is approximately:
 | 65/100 | Individual Report (detailed below)             |
 
 The weighting of marks for the individual Report is approximately:
+
 | mark  | component                           |
 |:-----:|:------------------------------------|
 | 20/65 | Technical Approach                  |
