@@ -50,7 +50,7 @@ Information about this interface can be found in
 This is the interface between the Raspberry Pi's back-end and all user serving
 components.
 This interface will be finalised by the Back-end Lead
-(Back-end Lead: [Francis Wharf](http://github.com/xeom)).
+([Francis Wharf](http://github.com/xeom)).
 Information about this interface can be found in
 [back-end/upward-interface.md](back-end/upward-interface.md).
 
