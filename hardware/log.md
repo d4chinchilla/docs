@@ -20,6 +20,8 @@ Rechargable USB battery bank is stable enough for the RPi
 Will use linear regs to make stable for audio section  
 
 ## 2019/02/19
-Finalising parts list
-Ensuring there are suitable substitute parts if things dont go to plan.  
+Finalising parts list  
+Ensuring there are suitable substitute parts if things dont go to plan  
 
+Battery bank has an output of +5V +-5% USB  
+Suspiciously also says 9V and 12V outputs from the same port?!  
