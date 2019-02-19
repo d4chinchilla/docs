@@ -52,7 +52,7 @@ components.
 This interface will be finalised by the Back-end Lead
 (Back-end Lead: [Francis Wharf](http://github.com/xeom)).
 Information about this interface can be found in
-[back-end/back-end_interface.md](back-end/back-end_interface.md).
+[back-end/upward-interface.md](back-end/upward-interface.md).
 
 ## Code Repositories
 | Units                                                                  | Description                                                 |
