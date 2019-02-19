@@ -25,3 +25,12 @@ Ensuring there are suitable substitute parts if things dont go to plan
 
 Battery bank has an output of +5V +-5% USB  
 Suspiciously also says 9V and 12V outputs from the same port?!  
+
+Parts list converted to csv for easier management  
+Thinking about filtering the output of the Maxim chip to reduce buggery further  
+Should look into the spectral range of human voice a bit more  
+Suggestions that human voice does fine through a 50Hz highpass  
+That's a start at least  
+Need to look for a suitable opamp to do this with  
+TL071 I had hoped to use requires too high a voltage  
+ 
