@@ -36,7 +36,7 @@ with multiple interlocutors.
 This is the interface between the ADCs and microcontroller.
 This interface will be finalised by the Hardware Lead
 ([William Webb](http://github.com/bishopstoenail)).
-Information about this finalised can be found in
+Information about this interface can be found in
 [hardware/adc_to_buffer.md](hardware/adc_interface.md).
 
 ### Buffer -> Back-end
