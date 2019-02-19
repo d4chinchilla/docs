@@ -12,7 +12,7 @@ people see sounds and where they come from. In addition to situational
 awareness, this device will help deaf people can lip read follow conversations
 with multiple interlocutors.
 
-## Schematic
+## Block Diagram
 ![](block_diagram.svg)
 
 
