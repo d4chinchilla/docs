@@ -13,7 +13,8 @@ awareness, this device will help deaf people can lip read follow conversations
 with multiple interlocutors.
 
 ## Schematic
-*add svg here*
+![](block_diagram.svg)
+
 
 ## Units
 * [Web](web/overview.md)
