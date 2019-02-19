@@ -1,10 +1,10 @@
 # Buffer Log
 This is a log of everything that is being worked on in relation this unit.
-Entries are not deleted and new entries are added at the top of the this file.
-Try and keep this up to date; it will make writing individual and group reports
+Entries are not deleted and new entries are added at the top of this file.
+Try to keep this up to date; it will make writing individual and group reports
 easier.
 
-## mbed CLI
+## 2019/02/18 mbed CLI
 mbed CLI tools have been installed and got working. To build and upload code,
 add the code in a file named main.cpp inside the directory "mbed-os-program".
 From inside the 'current' directory (this is just how I've set it up on my system - more of a reminder to me) use the command:
