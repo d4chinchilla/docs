@@ -13,3 +13,10 @@ work with a very simple algorithm, and then once it is working, we can improve i
 only need the centre of the xcorrelation, as we are looking for delays of around 1ms in a
 larger signal, so the efficiency increase may not be as dramatic as it would be if we were
 finding the complete xcorrelation.
+
+2019/02/19 Multithreading and reading from serial
+-------------------------------------------------
+
+I initialized the repository and added a the management for launching cross correlation jobs,
+and also for reading from the serial input. A seperate thread will be launched for each
+cross correlation, which should make everything nice and fast on the 4-core 'pi.
