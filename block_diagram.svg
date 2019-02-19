@@ -15,7 +15,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="schematic.svg">
+   sodipodi:docname="block_diagram.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -30,7 +30,7 @@
      inkscape:cy="207.20138"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      inkscape:object-paths="true"
      inkscape:snap-others="false"
      inkscape:snap-nodes="true"
@@ -40,9 +40,9 @@
      inkscape:snap-midpoints="true"
      inkscape:measure-start="205.566,980.353"
      inkscape:measure-end="313.652,949.543"
-     inkscape:window-width="1880"
+     inkscape:window-width="932"
      inkscape:window-height="1021"
-     inkscape:window-x="16"
+     inkscape:window-x="964"
      inkscape:window-y="16"
      inkscape:window-maximized="0">
     <inkscape:grid
@@ -57,7 +57,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -526,17 +526,17 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:3.17499995px;line-height:1.25;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="64.564507"
-       y="278.94324"
+       x="77.500885"
+       y="274.75082"
        id="text241"><tspan
          sodipodi:role="line"
          id="tspan239"
-         x="64.564507"
-         y="278.94324"
+         x="77.500885"
+         y="274.75082"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332">Calibration</tspan><tspan
          sodipodi:role="line"
-         x="64.564507"
-         y="282.91199"
+         x="77.500885"
+         y="278.71957"
          style="text-align:center;text-anchor:middle;stroke-width:0.26458332"
          id="tspan243">Button</tspan></text>
     <rect
@@ -544,15 +544,15 @@
        id="rect253"
        width="19.84374"
        height="9.2604265"
-       x="54.532364"
-       y="274.73407" />
+       x="67.468742"
+       y="270.54166" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.26458332"
        id="rect255"
        width="14.552083"
        height="2.6458333"
-       x="57.1782"
-       y="272.08826" />
+       x="70.114578"
+       y="267.89584" />
     <rect
        style="fill:none;stroke:#000000;stroke-width:0.26458332"
        id="rect261"
@@ -564,18 +564,6 @@
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 129.93861,229.75492 H 115.38653"
        id="path263"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 88.928205,249.59867 v 29.10416"
-       id="path269"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 88.928205,278.70283 H 74.376114"
-       id="path271"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <path
@@ -684,6 +672,24 @@
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 16.167782,250.92158 H 13.521948"
        id="path327"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 104.51042,249.375 0,6.61458"
+       id="path115"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 87.312499,275.83333 h 2.645833"
+       id="path117"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 104.51042,255.98958 89.958332,275.83333"
+       id="path119"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
   </g>
