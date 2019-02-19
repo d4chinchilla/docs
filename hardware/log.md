@@ -11,10 +11,15 @@ Sampling speed and low noise are priorities
 Most probably running off linear reg at 3.3V  
 Pseudo-differential ADC moves (potentially) too slowly for the audio  
 Differential would be perfect  
-Single ended will be fine as will be in close proximity  
+Single ended will be fine (probably) as long as careful with layout  
   
 Carol:  
 Looking for suitable Linear regulator for Mic, Amplifier, etc.  
 Looking for suitable battery bank  
 Rechargable USB battery bank is stable enough for the RPi  
 Will use linear regs to make stable for audio section  
+
+## 2019/02/19
+Finalising parts list
+Ensuring there are suitable substitute parts if things dont go to plan.  
+
