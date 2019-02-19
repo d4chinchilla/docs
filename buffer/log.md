@@ -21,3 +21,8 @@ happen include:
 * It might name the binary something different, so after compile won't flash
 
 However, if this can be set up on Linux then the Pi would be capable of flashing the code onto the ARM chip on its own (ie. doing a firmware update).
+
+## 2019/02/19
+
+Added a draft of what the pi backend currently expects the serial to look like. This might 
+be changed later - it is very simple to do this in the backend.
