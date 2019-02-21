@@ -12,7 +12,7 @@ Server is accessible remotely on local network through IP, still have some DNS/p
 
 As a file named "firmware.jpg". .jpg is a placeholder extension and will be replaced, just used for testing. Upload is locked to single file extension and no files >1MB. Backend/I can work on script to automate firmware updates on change of uploaded file.
 
-Current web uploaded to web branch matt.
+Current web will be uploaded to web branch matt (tbd).
 
 ## 2019/02/19 - 10:44 - Matt Crossley
 Francis has written a basic UI for point tracking using a radar-esque display, have set up apache server on RPi and loaded this page on, working on modifying server to be accessible remotely (on same network then potentially internet).
