@@ -1,31 +1,17 @@
 Item,Quantity,Unit cost,Total,Link
 STM32 Nucleo-32 STM32L432KC Dev. Board,1,£8.32,£8.32,https://uk.rs-online.com/web/p/processor-microcontroller-development-kits/1438574/?relevancy-data=636F3D3126696E3D4931384E53656172636847656E65726963266C753D656E266D6D3D6D61746368616C6C7061727469616C26706D3D5E5B5C707B4C7D5C707B4E647D2D2C2F255C2E5D2B2426706F3D31333326736E3D592673723D2673743D4B4559574F52445F53494E474C455F414C5048415F4E554D455249432673633D592677633D4E4F4E45267573743D4E55434C454F2D4C3433324B43267374613D4E55434C454F2D4C3433324B4326&searchHistory=%7B%22enabled%22%3Atrue%7D
 "MCP3301-CI/P Analogue to Digital Converter, 13 bit, 100 kSPS, Differential, Serial, SPI, Single, 4.5 V",4,£1.75,£7.00,https://onecall.farnell.com/microchip/mcp3301-ci-p/ic-13bit-adc-1ch-dip8-3301/dp/1332099
-,,,,
-,,,,
+1MS1T1B5M1QE Toggle Swich,1,£1.69,£1.69,https://onecall.farnell.com/multicomp/1ms1t1b5m1qe/switch-spdt-2-0a-250v/dp/9473378?ost=9473378&ddkey=https%3Aen-GB%2FOnecall%2Fsearch
 MCP1711T-33I/OT 3.3V LDO,4,£0.24,£0.98,https://onecall.farnell.com/microchip/mcp1711t-33i-ot/ldo-fixed-3-3v-0-15a-sot-23-5/dp/2851552?st=mcp1711
-,,,,
-Female pin headers,,,,
 Alitove 100 pcs ws2812B addressable LED pixel light rgb 5V DC,1,£17.99,£17.99,https://www.amazon.co.uk/ALITOVE-100pcs-WS2812B-Addressable-Arduino/dp/B01JTVRNFA/ref=lp_10938069031_1_9?srs=10938069031&ie=UTF8&qid=1550694710&sr=8-9
-,,,,
-Battery Bank,1,£26.26,£26.26,https://onecall.farnell.com/ansmann/1700-0095/powerbank-type-c-10ah/dp/2889328?st=usb%20battery%20bank
-micro SD card for Pi,1,,,
+RS Pro Power Bank,1,£17.89,£17.89,https://uk.rs-online.com/web/p/power-banks/7757517/?relevancy-data=636F3D3126696E3D4931384E525353746F636B4E756D626572266C753D656E266D6D3D6D61746368616C6C26706D3D5E2828282872737C5253295B205D3F293F285C647B337D5B5C2D5C735D3F5C647B332C347D5B705061415D3F29297C283235285C647B387D7C5C647B317D5C2D5C647B377D2929292426706F3D3126736E3D592673723D2673743D52535F53544F434B5F4E554D4245522677633D4E4F4E45267573743D3737352D37353137267374613D3737353735313726&searchHistory=%7B%22enabled%22%3Atrue%7D
+LVM358 Opamps,4,£0.56,£2.24,https://onecall.farnell.com/texas-instruments/lmv358id/op-amp-dual-low-volt-rro-p-soic8/dp/1105913?ost=1105913&ddkey=https%3Aen-GB%2FOnecall%2Fsearch
 MCP1501T-33E/CHY 3.3V References,4,£0.60,£2.41,https://onecall.farnell.com/microchip/mcp1501t-33e-chy/voltage-ref-series-fixed-3-3v/dp/2857779
 MAX446EXK+T Microphone Preamp,4,£0.32,£1.28,https://onecall.farnell.com/maxim-integrated-products/max4466exk-t/audio-amp-600khz-sc-70-5/dp/2514501?st=MAX4466
--40dB Microphone,4,£1.27,£5.08,https://uk.farnell.com/projects-unlimited/aom-4540p-r/microphone-omni-pcb-9-7mm/dp/1193026?ost=AOM-4540P-R&ddkey=https%3Aen-GB%2FElement14_United_Kingdom%2Fsearch
+AOM-6545P-R Microphone,4,£1.27,£5.08,https://onecall.farnell.com/projects-unlimited/aom-6545p-r/microphone-omni-pcb-9-4mm/dp/1193036?st=1193036
 ,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,Total,74.53,
-,,Left,25.47,
+Raspberry Pi 3,1,,,
+Micro SD Card for Pi,1,,,
+Perfboard,N/A,,,
+Female Pin Headers,N/A,,,
+,,Total,64.88,
