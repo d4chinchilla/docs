@@ -42,4 +42,5 @@ Perfboard has been sourced along with some tin-copper wire
 Use of the Ultimaker has been secured  
 This includes both the option of sending files for printing and also borrowing  
 the printer for some time to complete the prints  
-
+LMV358 opamp was chosen but will require a bit of messing to make sure it's  
+alright as was chosed quite quickly  
