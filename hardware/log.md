@@ -34,3 +34,12 @@ That's a start at least
 Need to look for a suitable opamp to do this with  
 TL071 I had hoped to use requires too high a voltage  
  
+## 2019/02/20-21
+Requsitions form handed in  
+LED strip we had hoped to use was not available as was US stock  
+Alternative source has been sent back to Mark Temple  
+Perfboard has been sourced along with some tin-copper wire  
+Use of the Ultimaker has been secured  
+This includes both the option of sending files for printing and also borrowing  
+the printer for some time to complete the prints  
+
