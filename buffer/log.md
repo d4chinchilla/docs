@@ -4,6 +4,14 @@ Entries are not deleted and new entries are added at the top of this file.
 Try to keep this up to date; it will make writing individual and group reports
 easier.
 
+## 21/02/19 Speed concerns
+
+The new protocol uses a bit-bashin equivalent of SPI, which theoretically is almost as fast and as the pins can all toggle (if the wait_us calls are replaced by idle for loops). The concern is that the sampling and serial transmission are all calls in the function loop, and therefore the serial will be holding up the loop and the sampling rate.
+
+The serial needs to send 52 characters, and at a baud of 115200 takes far longer than acceptable to maintain a high sampling rate. Allocating the serial transmission to a separate thread may change this to some extent, but possibly not as we're using a single-core processor.
+
+This is going to have to be checked on an oscilloscope. In a worst case scenario, bit-bashing may be possible on the Raspberry Pi, by sampling all ADCs at the same time to remove timing concerns.
+
 ## 19/02/19 Issues with QSPI
 QSPI (QuadSPI) is a variant of SPI that essentially operates four SPI lines simultaneiously, using the same data, clock and chip select lines. According to the documentation of mbed OS, there is QSPI support built in. The original program was designed to use this.
 
