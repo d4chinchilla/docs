@@ -44,3 +44,9 @@ This includes both the option of sending files for printing and also borrowing
 the printer for some time to complete the prints  
 LMV358 opamp was chosen but will require a bit of messing to make sure it's  
 alright as was chosed quite quickly  
+
+## 2019/02/22
+Will - Working on completing a general wiring diagram designed to seperate the 
+analogue and digital sections of the project.  
+Carol - Finalising and simulating the design for the filter on the output of 
+the preamp. Also looking at what filtering we can do on the preamp itself.  
