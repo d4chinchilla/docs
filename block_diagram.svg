@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="198.82614mm"
+   height="95.163475mm"
+   viewBox="0 0 198.82614 95.163472"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="391.84476"
-     inkscape:cy="895.96778"
+     inkscape:cx="372.18186"
+     inkscape:cy="196.21392"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -47,7 +47,9 @@
      inkscape:window-maximized="0">
     <inkscape:grid
        type="xygrid"
-       id="grid209" />
+       id="grid209"
+       originx="-5.2024746"
+       originy="-185.1432" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -64,7 +66,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-5.2024746,-16.693314)">
     <path
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.17838202px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 5.2916656,36.024622 6.6145824,3.367423"
@@ -835,7 +838,8 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot392"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+       style="font-style:normal;font-weight:normal;font-size:12px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="scale(0.26458333)"><flowRegion
          id="flowRegion394"><rect
            id="rect396"
            width="30"
