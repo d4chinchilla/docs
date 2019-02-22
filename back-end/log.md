@@ -39,5 +39,5 @@ if +ve means 1st set of data lead element+1 of 2nd data
 2019/02/21 modify code for DFT (tom)
 -------------------------------------------------
 
-I found that rounding the result of DFT may affect the result of x_corr. Therefore, 
+I found that rounding the result of DFT may affect the result of x_corr_dft. Therefore, 
 I use setprecision for cout rather than rounding
