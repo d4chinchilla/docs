@@ -29,9 +29,15 @@ do it, which are the normal case (convolution) and using DFT (discrete fouriere 
 Also, I found that if the number of samples if not enough, the result of the xcorrelation
 would be wrong. And I assume the minimum number of sample to do xcorrelation without error is 30.
 
-2019/02/20 add code for getting delay (tom)
+2019/02/21 add code for getting delay (tom)
 -------------------------------------------------
 
 I add the code to find delay elements of the 2 sets of data using the DFT method for xcorrelation.
 In addition, number of element+1 shows delay, if -ve means 1st set of data lag element+1 of 2nd data,
 if +ve means 1st set of data lead element+1 of 2nd data
+
+2019/02/21 modify code for DFT (tom)
+-------------------------------------------------
+
+I found that rounding the result of DFT may affect the result of x_corr. Therefore, 
+I use setprecision for cout rather than rounding
