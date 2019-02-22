@@ -29,7 +29,7 @@ do it, which are the normal case (convolution) and using DFT (discrete fouriere 
 Also, I found that if the number of samples if not enough, the result of the xcorrelation
 would be wrong. And I assume the minimum number of sample to do xcorrelation without error is 30.
 
-2019/02/21 add code for getting delay (tom)
+2019/02/21 add code for finding delay (tom)
 -------------------------------------------------
 
 I add the code to find delay elements of the 2 sets of data using the DFT method for xcorrelation.
@@ -41,3 +41,36 @@ if +ve means 1st set of data lead element+1 of 2nd data
 
 I found that rounding the result of DFT may affect the result of x_corr_dft. Therefore, 
 I use setprecision for cout rather than rounding
+
+2019/02/22 modify code for finding delay, problem for x_corr (using convolution) (tom)
+-------------------------------------------------
+
+I found that there is a small mistake for finding delay, in which the delay is equal to 
+the number of element in the array, not element+1. Also, since the size of the vector for 
+x_corr_dft is 2 times the original data set (zero added and it is necessary to compute
+x_corr_dft), the bottom half of the result for x_corr_dft is same as the top half, but inverse in sign.
+However, the problem is the value for the top half and bottom half may have +- 1 difference
+(because of rounding off), which may gives a wrong result. For example, let data size = 300, then
+v[30] = 352,v[569] = -353 ,and the delay will equal to 569, which is wrong. Therefore, I
+in order to fix this, I just find the maximum absolute value for the top half of the vector.
+In terms of x_corr, I found that the method that using convolution always gives to largest value
+when 2 vector align together. For example, let data set 1 = 34,99,56,11,52 ; 
+data set 2 = 85,66,34,99,56.
+When executing x_coor: (zeros added in order to shift the vector)
+set 1:
+0,0,0,0,0,34,99,56,11,52,0,0,0,0,0
+
+set 2:
+85,66,34,99,56,0,0,0,0,0,0,0,0,0,0
+
+When they align together:
+set 1:
+0,0,0,0,0,34,99,56,11,52,0,0,0,0,0
+
+set 2:
+0,0,0,0,0,85,66,34,99,56,0,0,0,0,0
+
+x_corr will give the largest value.
+As a consequence, I decided to use the dft method to do cross-correlation rather than 
+using convolution. And the test for the dft method is passed. In which having 250 elements
+with 50 delay still obtain the correct value for delay.
