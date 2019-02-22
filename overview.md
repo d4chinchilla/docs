@@ -49,12 +49,20 @@ Information about this interface can be found in
 [buffer/buffer_interface.md](buffer/buffer_interface.md).
 
 ### Back-end -> webUI and LED Control
-This is the interface between the Raspberry Pi's back-end and all user serving
+This is the interface from the Raspberry Pi's back-end to all user serving
 components.
 This interface will be finalised by the Back-end Lead
 ([Francis Wharf](http://github.com/xeom)).
 Information about this interface can be found in
 [back-end/upward-interface.md](back-end/upward-interface.md).
+
+### webUI and LED Control -> Back-end
+This is the interface from all user serving
+components to Raspberry Pi's back-end.
+This interface will be finalised by the Back-end Lead
+([Francis Wharf](http://github.com/xeom)).
+Information about this interface can be found in
+[led_ctl/downward-interface.md](led_ctl/downward-interface.md).
 
 ## Code Repositories
 | Units                                                                  | Description                                                 |

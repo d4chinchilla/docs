@@ -3,9 +3,10 @@ LED Control Lead: [Mark Warnants](http://github.com/markwarnants)
 
 Log File: [led_ctl/log.md](log.md)
 
-## Neopixels
-Programming in Python (must be run as root)    
-Using adafruit libraries    
+## LED ring and calibration button
+LEDs are individually addressable with 8-bit RGB channels. Communication is based on a single-wire protocol, which has strict timing requirements. They will recieve power directly from the battery and be connected to the raspberry pi GPIO. Each LED has a WS2812 chip inside which enables it to detect the address and decode the colour. The programming for this will recieve an angle, amplitude and frequency from the back-end; these are used to light up the LEDs to represent the signal and its direction. This will be written in python (must be run as root). Libraries written by Adafruit (below), will be used to ensure the timing requirements are met and simplify the programming process.    
+
+A calibration button will also be connected to the raspberry pi via the GPIO. This will add a line to a file when pressed, and also when pressed and held to send a restart signal.
 
 ### Hardware
 Pi 5V to Neopixel 5V    

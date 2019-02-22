@@ -20,3 +20,18 @@ finding the complete xcorrelation.
 I initialized the repository and added a the management for launching cross correlation jobs,
 and also for reading from the serial input. A seperate thread will be launched for each
 cross correlation, which should make everything nice and fast on the 4-core 'pi.
+
+2019/02/20 finish code for DFT (tested) and x_corr (tom)
+-------------------------------------------------
+
+I finished coding for DFT and xcorrelation, for the xcorrelation part, I have implement to method to
+do it, which are the normal case (convolution) and using DFT (discrete fouriere transform).
+Also, I found that if the number of samples if not enough, the result of the xcorrelation
+would be wrong. And I assume the minimum number of sample to do xcorrelation without error is 30.
+
+2019/02/20 add code for getting delay (tom)
+-------------------------------------------------
+
+I add the code to find delay elements of the 2 sets of data using the DFT method for xcorrelation.
+In addition, number of element+1 shows delay, if -ve means 1st set of data lag element+1 of 2nd data,
+if +ve means 1st set of data lead element+1 of 2nd data

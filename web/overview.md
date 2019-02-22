@@ -14,6 +14,9 @@ The web server will additionally serve as a control mechanism for the device, wi
 - File Upload for Firmware
   - [x] Started - Mostly Working - Using Test Extension At The Moment
   - [ ] Working
+- Back-end for file system (Incoming data/outgoing commands)
+  - [ ] Started
+  - [ ] Working
 - Data Input and Readback
   - [ ] Started
   - [ ] Working

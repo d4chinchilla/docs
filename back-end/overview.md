@@ -27,3 +27,13 @@ Components
 - Optionally finding the frequency of the peaks so we can colour the LEDs according to frequency.
   - [ ] started
   - [ ] working
+  
+- x_corr code (tom)
+  - [ ] finish on 20/2, but further test is needed
+  
+- DFT code (tom)
+  - [ ] finish on 20/2
+  
+- find delay elements (tom)
+  - [ ] finish on 21/2 (DFT only)
+  - [ ] may work on normal case later
