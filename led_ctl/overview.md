@@ -9,10 +9,15 @@ LEDs are individually addressable with 8-bit RGB channels. Communication is base
 A calibration button will also be connected to the raspberry pi via the GPIO. This will add a line to a file when pressed, and also when pressed and held to send a restart signal.
 
 ### Hardware
-Pi 5V to Neopixel 5V    
-Pi GND to Neopixel GND    
-With 1000µF protection capacitor between 5V and GND    
-Pi GPIO18 to Neopixel Din with 470Ω resistor in between    
+LEDs:
+- Pi 5V to Neopixel 5V
+- Pi GND to Neopixel GND
+- With 1000µF protection capacitor between 5V and GND
+- Pi GPIO18 to Neopixel Din with 470Ω resistor in between
+
+Calibration button:
+- Pi GND to one button leg
+- Pi GPIO4 to adjacent button leg
 
 ### Setup
 - Update / Upgrade Pi
