@@ -17,7 +17,6 @@ Pi GPIO18 to Neopixel Din with 470Ω resistor in between
 ### Setup
 - Update / Upgrade Pi
 - Install python3-pip
-- Enable SPI & I2C in raspi-config interfacing options & reboot
 - Install GPIO library: <code>sudo pip3 install RPI.GPIO</code>
 - Install adafruit_blinka: <code>sudo pip3 install adafruit-blinka</code>
 - Install CircuitPython: <code>sudo pip3 install rpi_ws281x adafruit-circuitpython-neopixel</code>
