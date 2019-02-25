@@ -50,3 +50,22 @@ Will - Working on completing a general wiring diagram designed to seperate the
 analogue and digital sections of the project.  
 Carol - Finalising and simulating the design for the filter on the output of 
 the preamp. Also looking at what filtering we can do on the preamp itself.  
+
+## 2019/02/25  
+A note on calculating gain for the preamp  
+We're going to have to do it experimentally really  
+Although 45dB as a mic equates to roughly 5mV/94dB SPL  
+Plan for today:  
+[x] Get microphone module schematic drawn up  
+[ ] Prototype on breadboard microphone module and determine required gain  
+[ ] Pick value of passives for required response  
+[ ] Prototype with additional active filter  
+[ ] Begin moving onto stripboard  
+
+So maybe due to the late delivery of parts today hasn't been as successful as 
+originally hoped  
+Progress has been made as far as putting a few amplifiers onto breakout boards 
+and drawing out the schematic properly  
+The basic amp has been built on a breadboard but is lacking in gain and is 
+suffering from MASSIVE 50Hz interference  
+Suspected the noise if from equipment, should try in lab soon  
