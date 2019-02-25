@@ -69,3 +69,5 @@ and drawing out the schematic properly
 The basic amp has been built on a breadboard but is lacking in gain and is 
 suffering from MASSIVE 50Hz interference  
 Suspected the noise if from equipment, should try in lab soon  
+
+It may or may not be what I would describe as a grounding issue...  
