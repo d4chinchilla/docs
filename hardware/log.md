@@ -71,3 +71,25 @@ suffering from MASSIVE 50Hz interference
 Suspected the noise if from equipment, should try in lab soon  
 
 It may or may not be what I would describe as a grounding issue...  
+
+## 2019/02/27  
+Fixed sorta kinda  
+Needs more filtering to remove 50Hz noise maybe  
+Plugged in in labs and has very little noise compared to at home (if any)  
+Shouldn't be a problem at all  
+Was worrying about nothing (as usual) maybe probably  
+
+Impedance on pullup was matched to the capsule properly, previous was massive  
+and hence gave crap SNR  
+Preamp filter thresholds are being changed to match the human voice a bit 
+betterer  
+There's a simple fft of my voice lying around of my windows install desktop  
+
+
+Filter is being redesigned, previously had a first order active filter  
+Would be better if we were using a second order filter if going active  
+
+Still seeing massive noise when tested in the house  
+Also seeing very significant 4kHz switching noise from the battery bank  
+May or may not be an issue, will have to see if it's still there once in labs  
+
