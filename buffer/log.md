@@ -4,6 +4,12 @@ Entries are not deleted and new entries are added at the top of this file.
 Try to keep this up to date; it will make writing individual and group reports
 easier.
 
+## 28/02/19 Fixed glitch
+
+Having done more research, I believe the glitch was caused by the thread scheduler task of mbed OS running at inconvenient tasks. I am unsure why this is such a problem on the L432KC and not the F303RE. However, but using CriticalSectionLock to prevent interrupts in all sections of the code except serial transmission, the issue was removed. This task is still called during serial transmission, but in that context a delay of 62us is not such an issue over a transmission lasting 10ms.
+
+Code was tested using an ADC to make sure characters were printed over the serial port. The sample time using a buffer size of 1 was slightly below 14us, giving us a sampling rate way beyond the 50kHz target.
+
 ## 27/02/19 Investigating glitch and testing ADCs
 
 It was noticed on the oscilloscope that the glitches always last for roughly 52us, suggesting it's the same thing causing the issue each time. It also has a repeating pattern for when it occurs. This patterns seems to suggest that if it should be happening during a serial send, it wouldn't have an effect so is unnoticeable, unless the serial itself is taking longer to send. This time period is not as large a delay when considering serial. It is only when the interval ends during a sample that it is very visible (at least with the setup used). This suggests it's a repeating process, suggesting an issue with mbed OS. However, this shouldn't be happening due to an RTOS which is supposed to depend on deterministic timings.
