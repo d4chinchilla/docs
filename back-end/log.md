@@ -4,7 +4,7 @@ Entries are not deleted and new entries are added at the top of this file.
 Try to keep this up to date; it will make writing individual and group reports
 easier.
 
-2019/02/18 Algorithm for cross correlation
+2019/02/18 Algorithm for cross correlation (f)
 ------------------------------------------
 
 We could use either an FFT-based or simple algorithm for xcorrelation, the FFT one may
@@ -14,7 +14,7 @@ only need the centre of the xcorrelation, as we are looking for delays of around
 larger signal, so the efficiency increase may not be as dramatic as it would be if we were
 finding the complete xcorrelation.
 
-2019/02/19 Multithreading and reading from serial
+2019/02/19 Multithreading and reading from serial (f)
 -------------------------------------------------
 
 I initialized the repository and added a the management for launching cross correlation jobs,
@@ -41,6 +41,13 @@ if +ve means 1st set of data lead element+1 of 2nd data
 
 I found that rounding the result of DFT may affect the result of x_corr_dft. Therefore, 
 I use setprecision for cout rather than rounding
+
+2019/02/21 Added trigonometric maths to find angles (f)
+---------------------------------------------------
+
+I added some code to sound.[ch] that models sounds and calculates their speed, and error.
+I went through the details of how it all works w/ Hugo
+
 
 2019/02/22 modify code for finding delay, problem for x_corr (using convolution) (tom)
 -------------------------------------------------
@@ -74,3 +81,21 @@ x_corr will give the largest value.
 As a consequence, I decided to use the dft method to do cross-correlation rather than 
 using convolution. And the test for the dft method is passed. In which having 250 elements
 with 50 delay still obtain the correct value for delay.
+
+2019/02/24 Added code for detecting peaks (f)
+-----------------------------------------
+
+The peak detection algorithm was finished, tested and added. The algorithm works by finding the maximum
+value in a certain width, meaning that all maxima are found, and multiple maxima close to one another
+due to noise are excluded.
+
+From there, the speed of sound and error for each possible combination of peaks can be calculated, and
+the most plausible sounds selected.
+
+2019/02/27 Finished code for file management (f)
+--------------------------------------------
+
+I have added code that manages the input and output files for the code, creates the appropriate fifos, and
+trims the sound output file to size when it gets too big. This isn't altogether too interesting, but it's
+necessary so that we don't end up with a file containing billions of sounds.
+
