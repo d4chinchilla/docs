@@ -15,7 +15,7 @@ The web server will additionally serve as a control mechanism for the device, wi
   - [x] Started - Mostly Working - Using Test Extension At The Moment
   - [ ] Working
 - Back-end for file system (Incoming data/outgoing commands)
-  - [ ] Started
+  - [x] Started
   - [ ] Working
 - Data Input and Readback
   - [ ] Started
