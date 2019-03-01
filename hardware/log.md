@@ -93,3 +93,9 @@ Still seeing massive noise when tested in the house
 Also seeing very significant 4kHz switching noise from the battery bank  
 May or may not be an issue, will have to see if it's still there once in labs  
 
+## 2019/02/28  
+No switching noise from battery bank seen after the regulator  
+Good news
+Going to stick with static 470x gain on the amp  
+No variable gain on each amp anymore  
+
