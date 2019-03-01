@@ -11,3 +11,6 @@ Discovered that original method was blocking and that keeping the fading within 
 
 ## 25/02/2019 LED control code tested and button code completed
 Tested LED code and debugged to ensure that it worked. Added code to ensure multiple signals mixed properly, and that they would loop round properly. Added hardware button code to write calibrate or reset command to a file when the hardware button is pressed momentarily or held for more than two seconds.
+
+## 01/03/2019 Case completed
+Case designed in blender with print in place button.
