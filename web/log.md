@@ -4,19 +4,25 @@ Entries are not deleted and new entries are added at the top of this file.
 Try to keep this up to date; it will make writing individual and group reports
 easier.
 
-## 2019/02/28 - 20:00 Matt Crossley Script Fix
+## 2019/03/01 - 23:30 - Matt Crossley - Working File Upload with Signing
+
+Utilishing the pipelines monitor bash script, file upload and installation is now fully working. In addition to the fully working file upload, thanks to Hugo, file signing has been implemented. The server will now only allow .gpg files to be uploaded, this file will then be verified using the public key and the contained .zip will be exported. The install script then immediately extracts the .zip into the /fwExtract folder before performing tasks on the extracted files to install firmware. If the signed file does not match any public key on the server, the file is rejected and no extraction occurs, making the upload system very secure.
+
+This script has been tested on the firmware install for the microcontroller and is fully working, other software installation has yet to be implemented.
+
+## 2019/02/28 - 20:00 - Matt Crossley - Script Fix
 
 The script has been fixed by causing the script to sleep if there is nothing sitting on the pipe, meaning the CPU time is greatly reduced. This is acceptable as the installation of new firmware is not time critical. After some testing of the script, the web server can successfully move files around and therefore is functional.
 
-## 2019/02/27 - 12:00 - Matt Crossley Script Solution
+## 2019/02/27 - 12:00 - Matt Crossley - Script Solution
 
 A solution was devised by Francis by utilising a pipeline. A script is run at boot to open a temporary pipe file that can be written to by the web server. The information within the pipe is then interpreted by a script that will run the required install instructions as sudo, this is a work around to allow the web server to perform install commands, as well as to restart any services if required. A currently problem with this script is that when running, an entire core of the CPU is parked at full usage, effectively blocking off one quarter of the CPU, this will be fixed soon.
 
-## 2019/02/25 - 17:00 - Matt Crossley PM Session
+## 2019/02/25 - 17:00 - Matt Crossley - PM Session
 
 In the afternoon, I worked on building up and testing the install scripts from the various firmware and software that is run on/off of the pi. Initial problems are brought about with pi permissions as the install scripts are required to move files about, install script working as sudo but yet to properly function when fun from web server.
 
-## 2019/02/25 - 13:00 - Matt Crossley Lab AM Session
+## 2019/02/25 - 13:00 - Matt Crossley - Lab AM Session
 
 The focus of the morning lab was to implement an FFT display on the Web Server by utilising available libraries. I initially investigated using a library called plot.ly, however the utilisation of this library proved difficult when plotting dynamic, overwriting data.
 
