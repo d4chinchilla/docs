@@ -29,7 +29,7 @@ do it, which are the normal case (convolution) and using DFT (discrete fouriere 
 Also, I found that if the number of samples if not enough, the result of the xcorrelation
 would be wrong. And I assume the minimum number of sample to do xcorrelation without error is 30.
 
-2019/02/21 add code for finding delay (tom)
+2019/02/21 added code for finding delay (tom)
 -------------------------------------------------
 
 I add the code to find delay elements of the 2 sets of data using the DFT method for xcorrelation.
@@ -92,10 +92,17 @@ due to noise are excluded.
 From there, the speed of sound and error for each possible combination of peaks can be calculated, and
 the most plausible sounds selected.
 
+2019/02/24 Added code for find amplitude (in dB) and select mic (tom)
+-----------------------------------------
+
+The code for selecting 2 out of 4 mic to compute DFT and delay. Also for finding amplitude 
+of the signal from a specific mic has been complete.
+
 2019/02/27 Finished code for file management (f)
 --------------------------------------------
 
 I have added code that manages the input and output files for the code, creates the appropriate fifos, and
 trims the sound output file to size when it gets too big. This isn't altogether too interesting, but it's
 necessary so that we don't end up with a file containing billions of sounds.
+
 
