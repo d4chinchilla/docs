@@ -92,7 +92,7 @@ due to noise are excluded.
 From there, the speed of sound and error for each possible combination of peaks can be calculated, and
 the most plausible sounds selected.
 
-2019/02/24 Added code for find amplitude (in dB) and select mic (tom)
+2019/02/25 Added code for find amplitude (in dB) and select mic (tom)
 -----------------------------------------
 
 The code for selecting 2 out of 4 mic to compute DFT and delay. Also for finding amplitude 
