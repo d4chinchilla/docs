@@ -1,0 +1,26 @@
+---DESIGN EVALUATION---
+
+1. Difficulty of specification attempted
+The specification of this product was relatively complex. Despite the goal being relatively straightforward, the way that this was attempted, using multiple microphones and calculating phase differences of sound signals, required advanced and precise signal processing, with little room for timing error, as a high sampling rate was necessary to analyse audio.
+
+2. Quality of the electronic design
+The design relied heavily on embedded software, and as a result a lot of the electronics comprised of embedded development boards. There was realistically no alternative to this in such a shortage of time. The anti-aliasing filters were second-order, meaning the roll-off was only 40dB/decade. Given the very narrow range of frequencies audio occupies, this was not sharp enough to be very effective. A higher order filter was needed to remove the higher frequencies.
+The ADCs were chosen as 13-bit differential amplifiers, intended to give better common-mode rejection. However, single-ended ADCs would probably have sufficed, as would a lower resolution, given only eight bits were used.
+
+3. Ease of use
+The design was incredibly easy to use as it was designed with elderly people in mind, as they are the largest demographic for hearing problems. There was only a single on-off push button for power, and a single large button on the top for calibration. Audio data was displayed on the LED ring on the top in an intuitive way.
+The case was slightly larger than ideal when considering portability, but it was not heavy enough to be cumbersome.
+The internals were accessed incredibly easily by rotating the lid a small amount to release it.
+
+4. Creativity and innovation of the designed product
+This is a product that we believe has not yet been brought to market, and is therefore very innovative. The methods of solving the problem are not revolutionary, but putting them together in this specific product aimed at improving the lives of people with hearing problems is a new concept.
+
+5. Aesthetics
+The case was designed to give it a clean and minimalist look, and the LEDs were covered by diffuser plastic help the lights blend together in a smooth, attractive manner. This had the result of our enclosure being one of the best (if not the best!) looking out of all the teams. The aesthetics were improved further using LED animations on startup and calibration.
+
+6. Cost
+Nothing in the device was made of specialist components, and thus everything was relatively cheap. The major source of cost was the use of the MCU and Raspberry Pi boards, which would not be used in a production model. They were also both more powerful than was required for the project, but as exact performance requirements were not know at the time of design, they were bought to allow some leeway. Using a plastic case makes the design cheaper to mass produce.
+
+7. Reliability
+The design had a calibration feature implemented in software, which theoretically should allow it to function reliably in most social environments. Situations in which it may not be reliable include high levels of vibration of the surface on which it is placed, or if there is a constant, loud background noise such as heavy machinery. It would not be expected to work outside unless there was little wind. Tapping the case may reduce reliability unless padding was introduced between the case and the microphones.
+The case is robust enough to protect the interior electronics during transport and handling. There is nothing on the outside of the case likely to be broken off.
