@@ -1,0 +1,10 @@
+## Costing
+Appendix [?] contains a breakdown of the costing of the unit. This not only includes the breakdown of costs associated with producing a single unit but also the costs incurred with manufacturing the product over a period of time. The enables the cost of setup fees and development costs to be amortised over a batch of units, in this case 1000 units, to better estimate a recommended retail price. A number of assumptions were made, and are stated in appendix [?] that certain work was done to reduce the price of the unit based on the manufacturing methods that would be used for a production run of that size.
+1000 units was chosen as it represents a large production run for this product. This is considering that it is in the accessibility market where it is purchased more through necessity by a small niche as opposed to being actively market to the general public as a helpful product.
+The recommended retail price here was estimated to be £405.77. This results in profit of £112.77 per unit sold.
+
+## Marketing
+As mentioned, the product only appeals to environments where there are a number of people sitting in static locations. This means the product appeals largely to conferences in a business setting where a hearing impaired person is involved. The limits the target audience quite substantially and the best route for marketing would most probably be through existing companies that already specialise in accessibility based products such as [?].
+
+## Conformance Marking
+CE compliance requires the product to visible be marked somewhere on the outer casing with the official CE logo once conformed. The obvious place for this is the bottom of the unit. The product would be required to undergo a round of testing at a verified test house, TUV for example, to ensure it meets requirements for a number of standards such as radiated, conducted and induced emissions. Since the product uses wifi for communication, it would have to be tested under the 'intentional radiator' category which may incur additional cost or testing over what is in the cost breakdown as in appendix [?]. Quotations would be necessary to verify this.

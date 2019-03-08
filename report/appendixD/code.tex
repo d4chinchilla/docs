@@ -1,0 +1,95 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=0.8in]{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\lstset{frame=Trbl, numbers=left}
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  frame=single,
+  breaklines=true,
+  %postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+
+\begin{document}
+
+\section{Software Listings}
+
+\subsection{Buffer}
+% Johns'
+arm\_main.cpp
+\lstinputlisting[language=c++]{code/johns/arm_main.cpp}
+
+logic\_test\_program.cpp
+\lstinputlisting[language=c++]{code/johns/logic_test_program.cpp}
+
+\subsection{Signal Processing}
+% Francis'
+conf.h
+\lstinputlisting[language=c]{code/francis/conf.h}
+
+main.c
+\lstinputlisting[language=c]{code/francis/main.c}
+
+sample.h
+\lstinputlisting[language=c]{code/francis/sample.h}
+
+sample.c
+\lstinputlisting[language=c]{code/francis/sample.c}
+
+sound.h
+\lstinputlisting[language=c]{code/francis/sound.h}
+
+sound.c
+\lstinputlisting[language=c]{code/francis/sound.c}
+
+xcorr.h
+\lstinputlisting[language=c]{code/francis/xcorr.h}
+
+xcorr.c
+\lstinputlisting[language=c]{code/francis/xcorr.c}
+
+% Tom's
+DFT.h
+\lstinputlisting[language=c++]{code/tom/DFT.h}
+
+DFT.cpp
+\lstinputlisting[language=c++]{code/tom/DFT.cpp}
+
+backend\_code.cpp
+\lstinputlisting[language=c++]{code/tom/backend_code.cpp}
+
+dw\_iface.cpp
+\lstinputlisting[language=c++]{code/tom/dw_iface.cpp}
+
+\subsection{Web}
+% Matt's
+index.php
+\lstinputlisting[language=php]{code/matt/index.php}
+
+upload.php
+\lstinputlisting[language=php]{code/matt/upload.php}
+
+install-daemon.sh
+\lstinputlisting[language=bash]{code/matt/install-daemon.sh}
+
+% unclaimed
+log.js
+\lstinputlisting{code/unclaimed/log.js}
+
+radar.js
+\lstinputlisting{code/unclaimed/radar.js}
+
+requestor.js
+\lstinputlisting{code/unclaimed/requestor.js}
+
+style.css
+\lstinputlisting{code/unclaimed/style.css}
+
+\subsection{LED Control}
+% Mark's
+led\_ctl.py
+\lstinputlisting[language=Python]{code/mark/led_ctl.py}
+
+\end{document}
