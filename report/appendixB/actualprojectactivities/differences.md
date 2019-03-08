@@ -48,3 +48,8 @@ Finally, due to dynamic test data not being available from the back-end until
 the final Monday, dynamic real-time graphs and displays were not able to be
 programmed until the very end of the project. This stemmed from poor
 communication between the web side and the back-end.
+
+## Tom
+On Friday for the first week of project, I also done the testing for my code.
+On Wednesday for the second week, I teach Carol how to use the equipments in the lab. 
+On Monday for the third week, I assist and give some suggestion for hardware debugging.
