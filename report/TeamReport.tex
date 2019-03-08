@@ -5,6 +5,7 @@
 \usepackage{hyperref}
 \usepackage{listings}
 \usepackage{float}
+\usepackage{textcomp}
 
 
 \lstset{frame=Trbl, numbers=left}
@@ -18,9 +19,24 @@
 
 
 \begin{document}
-\title{Report}
-\author{Hugo~McNally,
-        hm6g17@soton.ac.uk}
+\title{D4 Chinchilla - Team Report}
+\author{
+Hugo~McNally - hm6g17@soton.ac.uk
+\and
+Matt Crossley - mac1g17@soton.ac.uk
+\and
+Matthew Johns - mrj1g17@soton.ac.uk
+\and
+Mark Warnants - mpw1g17@soton.ac.uk
+\and
+Francis Wharf - few1g17@soton.ac.uk
+\and
+William Webb - wcw1g17@soton.ac.uk
+\and
+Tom Lam - yfl1u17@soton.ac.uk
+\and
+Kexin Pan - kp1y18@soton.ac.uk
+}
 \maketitle
 
 
@@ -37,20 +53,20 @@ accuracy as well as the history of received sounds. It is easy to set up, and
 any firmware updates would be downloaded through the web interface.
 
 This product is a table-top device, enclosed in its own case, with a sleek,
-white design. It has a diffused RGB LED ring on top, to indicate incoming sounds
+white design. It has a diffused RGB LED ring on top to indicate incoming sounds
 as well as their angles, amplitudes and frequencies. It receives its inputs
-through four microphones on the top of the device, which are sampled and sent to
-the on board raspberry pi by an arm microcontroller. Cross correlation, and a
+through four microphones on the top of the device which are sampled and sent to
+the system's Raspberry Pi by an ARM microcontroller. Cross correlation and a
 fast-fourier transform are carried out on the raspberry pi to extract all the
 necessary information out of the incoming signals. A web interface would be
-hosted by the raspberry pi which provides detailed read outs of all the
-information gathered, and provides a secure file upload for firmware updates.
-There is also a hardware calibration button in the centre of the device, which
+hosted by the Raspberry Pi which provides detailed read outs of all the
+information gathered and provides a secure file upload for firmware updates.
+There is a hardware calibration button in the centre of the device which,
 when pressed, triggers the collection of a ten second sound sample of the
 background noise. This is used to determine the level of noise which the device
 should subsequently ignore.
 
-The system should be run on a 5 V ± 400 mV battery with the capability of
+The system should be run on a 5 V $\pm$ 400 mV battery with the capability of
 driving the whole system with no adverse effects on the operation of the system,
 particularly the microphones, pre-amps and analog to digital converters (ADC).
 The output of the microphone and pre-amp stages should be between 0 V and 3.3 V.
@@ -59,7 +75,7 @@ real-time at 50 Hz. This information should then be buffered on the
 microcontroller, and sent to the back-end on the raspberry pi after the data for
 that packet of information is collected. This transfer should occur at no less
 than 120 kb/s. Analysis will then be carried out in the back-end and an angle of
-the sound should be produced to an accuracy of 9o. An amplitude would also be
+the sound should be produced to an accuracy of 9\textdegree. An amplitude would also be
 produced and frequency information. The resolution of the back-end outputs
 should be 8-bits at a frequency of 100 Hz.
 
