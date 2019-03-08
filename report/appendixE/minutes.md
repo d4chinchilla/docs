@@ -39,7 +39,7 @@ place: level 2 Zepler labs
 - We were told about the format of the project and advised about individual roles
 
 ## 15:00 19/02/2019
-attendees: everyone    
+attendees: All    
 place: level 3 Zepler labs    
 
 - Discussed plan through in detail in responce to Tim Forcer's comments
