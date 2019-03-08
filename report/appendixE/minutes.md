@@ -6,16 +6,16 @@ place: level 3 Zepler labs
 
 - We met and discussed possible project options
 - We ruled out basic sensors as those would be too simple
-- We eventually went for a project to detect sound angle over something to measure distance
+- We eventually decided on a project to detect sound angle over other proposed projects
 - Decided project would have a web ui
 - Deciding between il matto & display and an LED ring to display output onboard
 - Discussed power requirements, and pre-amps
 - It would detect sound using four microphones
 - It would have a 3D printed case
 - Using microcontroller for data collection
-- Discussed raspberry pi or FPGA for processing
-- Split up code into 5 blocks
-- split up project into blocks
+- Discussed Raspberry Pi or FPGA for processing
+- Split up code into 5 block sections
+- Split up project into block sections
 - Made github for code and docs
 
 ## 10:00 18/02/2019
@@ -33,7 +33,7 @@ place: level 2 Zepler labs
 attendees: All + Tim Forcer
 place: level 2 Zepler labs
 
-- Discussed project idea and apecific details
+- Discussed project idea and specific details
 - We were advised on the importance of specifying interfaces
 - We were advised that we should make test data so that each block can be tested seperately to each other
 - We were told about the format of the project and advised about individual roles
@@ -42,7 +42,7 @@ place: level 2 Zepler labs
 attendees: All    
 place: level 3 Zepler labs    
 
-- Discussed plan through in detail in responce to Tim Forcer's comments
+- Discussed plan in detail in response to Tim Forcer's comments
 - Established schematics for some components
 - Confirmed which parts are needed
 - Found parts from RS components and Onecall (Farnell)
