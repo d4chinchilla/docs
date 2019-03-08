@@ -53,3 +53,8 @@ communication between the web side and the back-end.
 On Friday for the first week of project, I also done the testing for my code.
 On Wednesday for the second week, I teach Carol how to use the equipments in the lab. 
 On Monday for the third week, I assist and give some suggestion for hardware debugging.
+
+## Carol
+Because the reson of battery, we have no -3.3V so I changed the active filter into passive filtert on Wednesday
+the final tuesday, team requres lower frequency, so i changed the cut-off low pass frequnecy from 15kHz into 12kHz
+
